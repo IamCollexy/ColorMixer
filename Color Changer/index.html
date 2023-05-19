@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Color Palette</title>
+  </head>
+  <body>
+    <header>Color Palette</header>
+    <div class="container">
+      <div class="box1">
+        <div class="pad1"></div>
+        <div class="clr-btn">
+          <button
+            class="color"
+            id="red"
+            onclick="pickColor(this)"
+          ></button>
+          <button
+            class="color"
+            id="blue"
+            onclick="pickColor(this)"
+          ></button>
+          <button
+            class="color"
+            id="green"
+            onclick="pickColor(this)"
+          ></button>
+          <button
+            class="color"
+            id="white"
+            onclick="pickColor(this)"
+          ></button>
+          <button
+            class="color"
+            id="black"
+            onclick="pickColor(this)"
+          ></button>
+        </div>
+      </div>
+
+      <div class="box2">
+        <div class="pad2"></div>
+        <div class="clr-btn">
+          <button
+            class="color"
+            id="red"
+            onclick="pickColor2(this)"
+          ></button>
+          <button
+            class="color"
+            id="blue"
+            onclick="pickColor2(this)"
+          ></button>
+          <button
+            class="color"
+            id="green"
+            onclick="pickColor2(this)"
+          ></button>
+          <button
+            class="color"
+            id="white"
+            onclick="pickColor2(this)"
+          ></button>
+          <button
+            class="color"
+            id="black"
+            onclick="pickColor2(this)"
+          ></button>
+        </div>
+      </div>
+
+      <div class="box3">
+        <div class="pad3"></div>
+        <button class="mix-btn" id="mix-btn" onclick="mixColor()">
+          MIX
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
